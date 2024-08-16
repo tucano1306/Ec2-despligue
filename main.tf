@@ -7,7 +7,7 @@ resource "aws_instance" "primera_instancia" {
   instance_type = var.instance_type
 
   tags = {
-    Name = "primera_instancia"
+    Name = "instancia_pipeline"
   }
 }
 
